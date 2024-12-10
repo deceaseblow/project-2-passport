@@ -8,7 +8,7 @@
 /* HEADERRRR */
 header{
     height:100vh;
-    background:  linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),  url(img/hero_1.jpg)center/cover;
+    background:  linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),  url(../img/hero_1.jpg)center/cover;
 }
 .container{
     width: 68vw;
