@@ -43,6 +43,7 @@ header{
 .nav_bar .button:hover{
     background-color: orange;
     border-color:orange;
+    cursor: pointer;
 }
 .nav_bar .item{
     transition: 0.4s;
@@ -61,6 +62,10 @@ header{
 .dropbtn:hover{
     opacity: 1;
 }
+.dropbtn i{
+  color:white;
+  opacity: 0.7;
+}
   
 .dropdown {position: relative;display: inline-block;
   }
@@ -71,6 +76,7 @@ header{
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
     transition: 0.4s;
+    margin-top:5px;
   }
   
   .dropdown-content a {
@@ -95,8 +101,10 @@ header{
     margin-top:100px;
     display: flex;
     flex-direction: column;
-    height:100vh;
+    justify-content: space-between;
+    height:77vh;
     gap:150px;
+    padding-top:100px;
   }
   .header_content h1{
     font: 60px "Playfair Display";
@@ -111,6 +119,7 @@ header{
   .content-2 i{
     border:1px solid white;
     background-color: white;
+    color:black;
     border-radius: 50%;
     padding:20px;
     align-items: center;
@@ -122,12 +131,15 @@ header{
      color:white;
      font: 14px "open sans", sans-serif;
      align-items: center;
+     padding-bottom:20px;
+     margin-left:20px;
   }
   .content-3 i{
     background: rgba(0, 0, 0, 0.445);
     padding:20px;
     border-radius: 50%;
     margin-right:20px;
+    color:white;
   }
   .content-2 h3{
     color:white;
@@ -232,8 +244,9 @@ header{
  }
  .sec-3-cards .card h1{
   position: absolute;
-  top: 69%;
-  left: 250px;
+  top: 70%;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  left: 252px;
   font: 17px "Open Sans", sans-serif;
   color:orange;
   background-color: white;
@@ -382,7 +395,7 @@ header{
 }
 
 footer{
-  height:70vh;
+  height:60vh;
   background-color: rgb(245, 243, 243);
   padding: 70px 0;
   font-family: 'arial';
@@ -409,6 +422,11 @@ footer{
   display: flex;
   flex-direction: column;
   gap:10px;
+  transition:0.4s;
+}
+.footer-left-bot i:hover{
+  cursor: pointer;
+  background-color: #fc8621;
 }
 .footer-right{
   display: flex;
